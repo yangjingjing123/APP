@@ -1,0 +1,120 @@
+.box{
+	width: 100%;
+	height: auto;
+/* 	background-color: black; */
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	background-image: url('../img/beijingdelu.png');
+	background-size: 100% auto;
+
+}
+header{
+	width:7.01rem;
+	height: .88rem;
+	/* background-color: yellowgreen; */
+	padding: 0 .24rem;
+	overflow: hidden;
+	margin: 0 auto;
+	/* justify-content:space-between; */
+
+}
+.head-back{
+	float: left;
+	width: .36rem;
+	height: .36rem;
+	margin-top: .3rem;
+	margin-left: -.2rem;
+}
+.head-zhuce{
+	width: 1.01rem;
+	height: .45rem;
+	float: right;
+	margin-top: .3rem;
+	
+}
+#header-center{
+	width: 1.59rem;
+	height: 1.59rem;
+	background-color: white;
+	border-radius: 50%;
+	margin: .45rem auto;
+}
+#wenzi{
+	font-size: .3rem;
+	font-weight: 900;
+	color: white;
+	margin: 0 auto;
+	margin-left: 1.72rem;
+}
+#wenzi2{
+	font-size: .28rem;
+	font-weight: 900;
+	color: white;
+	margin: 0 auto;
+	margin-left: 3.2rem;
+}
+#zhengwen{
+	width: 6.06em;
+	height: 5.05em;
+	/* background-color: yellowgreen; */
+	margin: 1.2rem auto;
+}
+.youxiang{
+	width: 1.63rem;
+	height: 1.63rem;
+	background-color: white;
+	border-radius: 50%;
+	margin: -7rem auto;
+}
+.user-box{
+	width: 4.67rem;
+	height: .76rem;
+/* 	background-color: yellow; */
+	margin: 7rem auto;
+	margin-left: 2.5rem;
+
+}
+/* .user-top{
+	font-size: .2rem;
+	margin-top: 0;
+} */
+.yonghuming{
+	width: .91em;
+	height: .91em;
+	margin-left: -1rem;
+	margin-top: -.8rem;
+}
+.user-buttom{
+	width: 4.67rem;
+	height: .76rem;
+	margin: -6.5rem auto;
+/* 	background-color: yellow; */
+	margin-left: 2.5rem;
+}
+.mima{
+	width: .63em;
+	height: .63em;
+	margin-left: -.85rem;
+	margin-top: -.8rem;
+}
+#jizhumima{
+	font-size: .18rem;
+	color: black;
+	margin-top: .3rem;
+	margin-left: 0rem;
+	justify-content:space-between;
+}
+#jizhumima:nth-child(2){
+	float: right;
+}
+#denglu{
+	width: 2.93em;
+	height: 1.09em;
+	/* background-color: yellow; */
+	margin-top: .6rem;
+
+}

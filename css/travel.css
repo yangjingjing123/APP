@@ -1,0 +1,270 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 750px;
+	height: 2507px;
+	margin: 0 auto;
+	background: #F6F6F6;
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/*头部*/
+header {
+	width: 750px;
+	height:87px;
+	background: #11DFB5;
+	position: relative;
+	position: fixed;
+	z-index: 900;
+}
+header>img{
+	margin-left:24px; 
+}
+/*返回*/
+.return{
+	position: absolute;
+	left: 25px;
+	top:25px;
+	position: fixed;
+}
+/*搜索*/
+.seek{
+	position: absolute;
+	right: 25px;
+	top: 25px;
+	position: fixed;
+}
+/*导航*/
+nav{
+}
+nav ul li{
+	float: left;
+	margin: 10px 25px;
+	color: #EDEDED;
+}
+nav ul li:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+nav span{
+	color: #878788;
+	font-size: 30px;
+}
+h1{
+	display: inline-block;
+	cursor: pointer;
+}
+nav ul li>span{
+   float: left;
+   padding-top:15px; 
+   padding-right: 10px;
+}
+h1:hover span{
+	color: #FE76F6;
+}
+/*主体*/
+  /*主体标题*/
+.scenic{
+   margin-top:20px; 	
+   width: 750px;
+   height: 61px;
+   position: relative;
+   padding-left: 20px;
+}
+.scenic img:last-child{
+	position: absolute;
+	right: 25px;
+	bottom: -10px;
+	cursor: pointer;
+}
+  /*景点*/
+.area{
+	width: 750px;
+	height: 360px;
+/*	border: 1px solid red;*/
+}
+  /*旧金山 双子峰 奥斯兰卡*/
+.frisco,.peaks,.Austin{
+	width:228px;
+	height: 286px;
+	margin:44px 0 0 20px;
+	border-radius: 10px;  
+	background:url(../img/tu1.png)-12px -8px no-repeat; 
+	position: relative;
+	box-shadow:#ccc 5px 5px 30px;
+	float: left;
+}
+  /*双子峰*/
+.peaks{
+	background:url(../img/jingdian2.png)-28px -14px no-repeat; 
+} 
+ /*奥斯兰卡*/
+ .Austin{
+ 	width: 208px;
+ 	background:url(../img/jingdian3.png)-26px -14px no-repeat; 
+} 
+ }
+.frisco img:first-child,.peaks img:first-child,.Austin img:first-child{
+   margin: 5px;
+}
+.frisco img:nth-of-type(2),.peaks img:nth-of-type(2){
+	position: absolute;
+	right: 10px;
+	top:130px;
+	cursor: pointer;
+}
+.Austin img:nth-of-type(2){
+	position: absolute;
+	right: -10px;
+	top: 130px;
+    cursor: pointer;
+}
+.frisco h1,.peaks h1,.Austin h1{
+	position: absolute;
+	left: 20px;
+	bottom: 60px;
+	font-size: 30px;
+	color: #656565;
+}
+.frisco span:nth-of-type(1),.peaks span:nth-of-type(1),.Austin span:nth-of-type(1){
+	display:inline-block; 
+	position: absolute;
+	bottom: 20px;
+	left: 10px;
+	font-size: 22px;
+	color: #BABABA;
+	padding-left: 38px;
+	background: url(../img/guanzgu2.png)no-repeat;
+	cursor: pointer;
+}
+.frisco span:nth-of-type(2),.peaks span:nth-of-type(2),.Austin span:nth-of-type(2){
+    position: absolute;
+	bottom: 20px;
+	left: 120px;
+	font-size: 22px;
+	color: #BABABA;
+	padding-left: 38px;
+    background: url(../img/dianzan.png)no-repeat;
+    cursor: pointer;
+}
+/*好友推荐内容*/
+ /*小娜*/
+ .xiaona{
+ 	width: 704px;
+ 	height:394px;
+/* 	border: 1px red solid;*/
+    background: #fff;
+    margin:0 auto;
+    margin-top:50px;  
+    border-radius:10px; 
+    position: relative;
+ }
+ /*头像*/
+ .xiaona img:first-child{
+ 	margin:-20px 0 0 -20px; 
+ }
+ /*名称*/
+ .xiaona h1{
+ 	color: #11DFB5;
+ 	font-size: 30px;
+   position: absolute;
+   top: 10px;
+   left:90px;
+   padding-bottom: 10px;
+   border-bottom:3px solid #D8D8D8; 
+ }
+ /*VIP*/
+ .xiaona img:nth-of-type(2){
+ 	position: absolute;
+ 	top: 20px;
+ 	left: 240px
+ }
+ /*星星*/
+ .xiaona ul li{
+ 	float: left;
+ 	margin: 8px;
+ }
+ .xiaona ul li:after{
+  	clear: both;
+  	content: "";
+  	display: block;
+  }
+ .xiaona ul{
+ 	position: absolute;
+ 	top:30px;
+ 	right: 200px;
+ }
+ /*南极1*/
+ .xiaona img:nth-of-type(3){
+ 	margin:10px 0 0 20px;
+ }
+ /*播放*/
+ .xiaona img:nth-of-type(4){
+ 	position: absolute;
+ 	top: 180px;
+ 	left: 330px;
+ 	cursor: pointer;
+ 	transition:all .2s;
+ }
+ .xiaona img:nth-of-type(4):hover{
+ 	transform:scale(1.2);
+ 	transition:all .2s;
+ }
+ /*NEW*/
+ .xiaona img:nth-of-type(5){
+ 	position: absolute;
+ 	top: 75px;
+ 	right: 60px;
+ }
+ /*介绍*/
+ .xiaona span{
+ 	display: inline-block;
+ 	font-size: 28px;
+ 	font-family: '黑体';
+ 	font-weight: bold;
+ 	color: #C4C4C4;
+ 	padding-left: 33px;
+ 	padding-bottom: 10px;
+ 	margin-right:80px;
+ 	margin-top:20px; 
+ 	cursor: pointer;
+ }
+ .xiaona span:nth-of-type(1){
+ 	margin-left:20px; 
+ 	background: url(../img/dingwei.png) no-repeat;
+ }
+ .xiaona span:nth-of-type(2){
+ 	margin-left:15px; 
+ 	background: url(../img/dianzan.png)-2px 0  no-repeat;
+ }
+ .xiaona span:nth-of-type(3){
+ 	margin-left:15px; 
+ 	background: url(../img/guanzgu2.png) -2px 0 no-repeat;
+ }
+ /*底部*/
+  footer{
+  	width: 750px;
+  	height: 100px;
+  	margin-top:30px;
+  	background: #11DFB5; 
+  }
+  footer ul li{
+  	float: left;
+    margin:20px 80px 0 30px; 
+  } 
+  footer ul li:after{
+  	content: "";
+  	display: block;
+  	clear: both;
+  }
+  footer ul li:first-child{
+    margin-left:70px; 
+    margin-top:15px; 
+  }
